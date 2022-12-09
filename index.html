@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title> Ata Arias / Portafolio </title>
+        <link rel="stylesheet" href="mystyle.css">
+        <link rel="stylesheet" href="capicon/font/style.css">
+        
+    </head>
+
+    <body>
+        <script src="app.js"></script>
+
+        <nav>   
+            <div id="nav-logo-section" class="nav-section"> 
+                <h2><a href = "https://argentinaprograma.inti.gob.ar/",> #YoProgramo </a></div></h2>  
+            </div>
+
+            <div id="nav-socials-section" class="nav-section">
+                <h2> Socials </h2>
+            </div>
+
+            <div id="nav-logIn-section" class="nav-section"> 
+                <h2> LogIn </h2>
+            </div>
+        </nav>
+
+        <div class="content-div">
+            <div class="buttons-div">
+                <button id="up-button" onclick="handleUpClick()"> 
+                    <h1> Up </h1> 
+                </button>
+
+                <button id="down-button" onclick="handleDownClick()"> 
+                    <h1> Down </h1>
+                </button>
+            </div>
+
+            <main>
+                <article class="page" data-index="0" data-status="active">
+                    <h1> Sobre mi </h1>    
+                </article>
+        
+                <article class="page" data-index="1" data-status="inactive">
+                    <h1> Experiencia </h1>
+                </article>
+        
+                <article class="page" data-index="2" data-status="inactive">
+                    <h1> Educación </h1>
+                </article>
+        
+                <article class="page" data-index="3" data-status="inactive">
+                    <h1> Skills </h1>
+                </article>
+        
+                <article class="page" data-index="4" data-status="inactive">
+                    <h1> Proyectos </h1>
+                </article>
+            </main>
+        </div>
+        
+        <!-- Que cada página sea como una targeta que se desliza sobre la otra-->
+    </body>
+</html>
